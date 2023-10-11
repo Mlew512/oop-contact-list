@@ -21,6 +21,7 @@ def test_find_shared_contacts():
     my_friends_list = ContactList('My Friends', friends)
     my_work_buddies = ContactList('Work Buddies', work_buddies)
     shared_contacts = my_friends_list.find_shared_contacts(my_work_buddies)
+    
     assert len(shared_contacts) == 1
     assert shared_contacts[0]['name'] == 'Alice'
 

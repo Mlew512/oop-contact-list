@@ -6,7 +6,10 @@
 
 ## Summary
 
-Let's create a class for creating contact lists. Each contact list should store its `contacts` as a list of dictionaries, containing name and phone number. The list should be sorted by the contacts' name. The contact list should also have a `name` that distinguishes it, e.g. "School Friends", "Extended Family", or "Work Buddies".
+Let's create a class for creating contact lists. Each contact list should store its `contacts` as a list of dictionaries, containing name and phone number. The list should be sorted by the contacts' name.
+
+ The contact list should also have a `name` that distinguishes it, e.g. "School Friends", "Extended Family", or "Work Buddies".
+ 
 The contact list should have 3 instance methods:
 
 - `add_contact({})` should add a new contact to the list, while keeping the list sorted
